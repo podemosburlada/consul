@@ -10,18 +10,18 @@
 // ----------------------
 
 .jumbo {
-  background: $highlight;
+  background-image: url("http://ahalduguburlata.info/wp-content/uploads/2020/10/jumbo-hig.jpg");
   margin-bottom: $line-height;
   margin-top: rem-calc(-24);
   padding-bottom: $line-height;
   padding-top: $line-height;
-
+  color: #ffffff;
   @include breakpoint(medium) {
     padding: rem-calc(24) 0;
   }
 
   &.light {
-    background: #ecf0f1;
+    background: #ffffff;
   }
 }
 
