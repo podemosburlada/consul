@@ -9,3 +9,24 @@
 #featured-proposals a {
 color: #ffffff;
 }
+
+.jumbo.light {
+	background: #a62335 !important;
+}
+
+.resource-card {
+	background: #2d2d2d !important;
+	color: #ffffff;
+}
+
+.resource-card .button {
+	background: #a62335 !important;
+}
+.resource-card::before {
+	color: #ffffff !important;
+	border: 2px solid #ffffff !important;
+}
+
+.button.success {
+	background: #049878 !important;
+}
